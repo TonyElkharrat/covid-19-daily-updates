@@ -1,0 +1,14 @@
+.buttonDialog {
+  background: transparent;
+  font-size: 1rem;
+  color: rgb(63, 63, 219);
+  border: none;
+  padding: 1rem;
+  font-weight: bold;
+}
+.buttonDialog:hover {
+  border: rgb(250, 250, 250);
+  background-color: rgb(250, 250, 250);
+  cursor: pointer;
+  border-radius: 10px;
+}

@@ -1,0 +1,29 @@
+.card {
+  height: 250px;
+  border-radius: 5px;
+  box-shadow: 0 2px 3px 0.5px rgb(189, 189, 189);
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  align-self: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.h2 {
+  font-size: 2rem;
+}
+.span {
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 481px) {
+  .span {
+    margin-top: 35px;
+  }
+}
